@@ -34,3 +34,8 @@ function check(sum) {
 
 //Dichiariamo chi ha vinto.
 
+if ((sum % 2 == 0 && scelta === "pari") || (sum % 2 == 1 && scelta === "dispari")) {
+    console.log("BRAVO! Hai vinto!!!!")
+} else {
+    console.log("Ritenta, sarai più fortunato!")
+}
