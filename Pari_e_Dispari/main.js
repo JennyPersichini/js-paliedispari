@@ -8,9 +8,16 @@ console.log(`Il numero da te scelto è ${num1}`)
 
 //Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 
-function numeComputer(){
+function numComputer(){
     num2 = Math.floor(Math.random() * 5) + 1;
     console.log(`Il computer ha scelto ${num2}`);
 }
+
+//Sommiamo i due numeri
+
+let sum = num1 + numComputer();
+
+//Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+
 
 //Dichiariamo chi ha vinto.
