@@ -22,6 +22,8 @@ let sum = num1 + numComputer();
 function check(sum) {
     let result = 0;
 
+    //Se la somma darà resto 0, il risultato è pari; altrimenti è dispari.
+
     if (sum % 2 == 0){
         result = "Pari";
     } else {
