@@ -19,5 +19,18 @@ let sum = num1 + numComputer();
 
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 
+function check(sum) {
+    let result = 0;
+
+    if (sum % 2 == 0){
+        result = "Pari";
+    } else {
+        result = "Dispari";
+    }
+
+    return result;
+
+}
 
 //Dichiariamo chi ha vinto.
+
